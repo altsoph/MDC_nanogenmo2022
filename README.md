@@ -16,3 +16,13 @@ It colors the random words in some strange ways as well :)
 For example, frost and frozen have red bias somewhy.
 
 Now, I decided to use this classifier to colorize words of Moby-Dick.
+
+Here is an example snippet of text:
+![example snippet of text](https://raw.githubusercontent.com/altsoph/MDC_nanogenmo2022/main/snippet.png)
+
+It is also possible to calculate the flow of intensity of different colors through the chapters.
+![flow](https://raw.githubusercontent.com/altsoph/MDC_nanogenmo2022/main/wrgb.png)
+
+
+I used the python-notebook to create the colorized html, then the [wkhtmltopdf tool](https://wkhtmltopdf.org/) to convert it to PDF.
+The [full result is here](https://github.com/altsoph/MDC_nanogenmo2022/raw/main/moby-dick-colorized.pdf). 
